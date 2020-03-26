@@ -2,6 +2,7 @@
 <html lang="{{ .Site.Language }}">
     <head>
         {{ partial "head.html" . }}
+        {{ partial "custom-scss.html" . }}
     </head>
 
     <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
@@ -18,5 +19,6 @@
         </div>
 
         {{ partial "javascript.html" . }}
+        {{ partial "custom-js.html" . }}
     </body>
 </html>

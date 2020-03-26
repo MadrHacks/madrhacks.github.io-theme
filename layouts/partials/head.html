@@ -26,12 +26,6 @@
 {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-{{ range $val := $.Site.Params.customCSS }}
-    {{ if gt (len $val) 0 }}
-        <link rel="stylesheet" type="text/css" href="{{ $val }}">
-    {{ end }}
-{{ end }}
-
 <!-- Icons -->
 {{- partial "favicons.html" . }}
 
