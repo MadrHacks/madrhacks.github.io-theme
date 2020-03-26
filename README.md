@@ -1,10 +1,10 @@
-# Hello Friend NG
+# MadrHacks Theme
 
 ![Hello Friend NG](https://dsh.re/d27822)
 
 ## General informations
 
-This theme was highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit). A lot of kudos for theier great work.
+This theme was highly inspired by the [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) and [hermit](https://github.com/Track3/hermit). A lot of kudos for theier great work.
 
 ## Features
 
