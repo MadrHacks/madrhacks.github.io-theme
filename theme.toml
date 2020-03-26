@@ -1,4 +1,4 @@
-name = "madrhacks-theme"
+name = "madrhacks"
 license = "MIT"
 licenselink = "https://gitlab.com/madrhacks/hugo-madr-theme/blob/master/LICENSE.md"
 description = "Our custom theme for MadrHacks site."
