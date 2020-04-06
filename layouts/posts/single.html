@@ -97,8 +97,5 @@
                 {{ template "_internal/disqus.html" . }}
             </div>
         {{- end }}
-        {{ if or .Params.math .Site.Params.math }}
-            {{ partial "math.html" . }}
-        {{ end }}
     </main>
 {{ end }}

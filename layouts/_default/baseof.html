@@ -20,5 +20,8 @@
 
         {{ partial "javascript.html" . }}
         {{ partial "custom-js.html" . }}
+        {{ if or .Params.math .Site.Params.math }}
+            {{ partial "math.html" . }}
+        {{ end }}
     </body>
 </html>
