@@ -50,5 +50,8 @@
                 {{ .Content }}
             </div>
         </article>
+        {{ if or .Params.math .Site.Params.math }}
+            {{ partial "math.html" . }}
+        {{ end }}
     </main>
 {{ end }}
