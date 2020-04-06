@@ -48,7 +48,8 @@
             {{- end }}
 
             {{ with .Params.Cover }}
-            <img src="/img/{{256b566fb782cbfcf4e0e8edba89c54fc42b27fb
+                <img src="/img/{{ . }}" class="post-cover" />
+            {{ end }
 
             <div class="post-content">
                 {{ .Content }}
