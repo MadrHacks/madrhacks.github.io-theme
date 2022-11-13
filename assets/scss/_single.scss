@@ -183,3 +183,11 @@
     margin-right: 8px;
   }
 }
+
+ .author {
+   margin-right: .5em;
+
+   &::before {
+     content: "@"
+   }
+ }
